@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'poppins','sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header
+{
+    background-color: #f0f0f0;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 10px 200px;
+}
+.logo
+{
+    text-decoration: none;
+    font-weight: 700;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+.navigation > a
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: #3a6cf4;
+    font-size: 1em;
+    padding-left:30px;;
+}
+.navigation > a:hover
+{
+    color: #601cfc;
+}
+section
+{
+    padding: 100px 200px;
+}
+.main
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/1\ \(2\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main  h2{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+}
+.main  h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.main h3
+{
+    color: #fff;
+    font-size: 1.333em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 10px;    
+}
+.main .main-btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color:#3a6cf4 ;
+    margin-top: 5px;
+    margin-bottom:40px;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    transition: 0.7s ease;
+
+}
+.main .main-btn:hover
+{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.social-icons a
+{
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.7em;
+    padding-right: 30px;
+    transition: 0.7s ease;
+
+}
+.social-icons a:hover
+{
+    color: #0a49f6;
+    transform: scale3d(1.1);
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #3a6cf4;
+    margin-bottom: 30px;
+}
+.content
+{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.content .card
+{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);/* top&bottom,right&left(-),blurt(),*/
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;/* ease de bt5leha smoothly*/
+
+}
+.content .card:hover
+{
+    transform: scale(1.1);
+}
+.content .card .icon
+{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+    margin: 10px;
+}
+.content .card .info
+{
+    text-align: center;
+}
+.content .card .info h3
+{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 10px;
+
+
+}
+.Projects
+{
+    background-color: #000;
+}
+.projects-card
+{
+    background-color: #fff;
+    width: 20em;
+    min-height: 14em;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.projects-card:hover
+{
+    transform: scale(1.1);
+
+}
+.projects-card .projects-img > img
+{
+    width: 100%;
+}
+.projects-card:hover .projects-img
+{
+    opacity: 0.9;
+}
+.project-info
+{
+    margin: 10px;
+}
+
+.project-category
+{
+    font-size: 0.8em;
+    color: #000;
+}
+.project-title
+{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+.more-details
+{
+    text-decoration: none;
+    color:#3a6cf4 ;
+}
+.more-details:hover
+{
+    color: #601cfc;
+}
+.cards-contact
+{
+    background-color: #fff;
+}
+.contact .content .card .icon{
+    font-size: 4.5em;
+    transition: 0.7s ease;
+}
+.contact .content .card .icon:hover{
+color: #601cfc;
+}
+.contact .content .card .info h3
+{
+    color: #000;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 10px;
+
+}
+.contact .content .card .info p
+{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.contact .content .card
+{
+    min-height: 100mv;
+}
